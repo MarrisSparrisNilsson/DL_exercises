@@ -52,3 +52,235 @@ So its all about what we choose to ignore.
 -   Shows implicitly learned attention.
 
 ### Hard Attention
+
+---
+
+## Quiz
+
+14 out of 21 points (**66.67%**)
+
+Time for this attempt: 27 minutes 56 seconds
+
+**Your Answers:**
+
+---
+
+### 1. Feedforward neural networks can remember previous inputs.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**False**
+
+---
+
+### 2. A recurrent neural network bases its decsions on the current input as well as its previous output.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 3. In backpropagation through time, the weight update is applied only to the weight of the current time step.
+
+0 / 1 point
+
+Incorrect Answer: <span style="color: orangered">
+**True**
+
+Correct Answer: <span style="color: lime">
+**False**
+
+> **Feedback based on answering incorrectly:**
+> The update is applied to the weights at past time steps, even though they are the same weights, but with different inputs.
+
+---
+
+### 4. While resilient to exploding gradients, backpropagation through time is affected by the vanishing gradient problem.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**False**
+
+---
+
+### 5. The vanishing gradient problem describes the issue that the gradient signal diminishes exponentially the further it needs to travel.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 6. Unlike feedforward neural networks, an RNN can remember inputs it has seen in a previous input sequences.
+
+0 / 1 point
+
+Incorrect Answer: <span style="color: orangered">
+**True**
+
+Correct Answer: <span style="color: lime">
+**False**
+
+> **Feedback based on answering incorrectly:**
+> The memory of an RNN is limited to inputs it has seen previously in the input sequence.
+
+---
+
+### 7. A bidirectional RNN processes an input sequence from start to finish and from finish to start.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 8. The forget gate of an LSTM cell determines how much of the previous cell state is remembered.
+
+0 / 1 point
+
+True
+Incorrect Answer: <span style="color: orangered">
+**False**
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 9. The output of an LSTM cell's output gate is the final output of that cell.
+
+0 / 1 point
+
+Incorrect Answer: <span style="color: orangered">
+**True**
+
+Correct Answer: <span style="color: lime">
+**False**
+
+> **Feedback based on answering incorrectly:**
+> The final output of an LSTM cell is the product of the output gate and the updated cell state.
+
+---
+
+### 10. LSTMs can remember longer ranging dependencies than vanilla RNNs since information can be stored unaltered in its memory cell.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 11. Which of the following problems is a one to many sequence problem?
+
+0 / 1 point
+
+-   Image caption generation <span style="color: lime"> **Correct Answer**
+-   Sentiment analysis
+-   Translation <span style="color: orangered"> **Incorrect Answer**
+
+---
+
+### 12. It is not possible to combine RNNs and CNNs.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**False**
+
+---
+
+### 13. Neural networks learn to pay attention to certain parts of the input implicitly.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 14. Soft attention identifies relevant tokens in an input sequence by comparing the token encoding with the previous hidden state of the processing RNN.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 15. In soft attention, a context vector is produced by a weighted sum over the token encodings scaled by the respective attention weight.
+
+0 / 1 point
+
+True
+Incorrect Answer: <span style="color: orangered">
+**False**
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 16. CA-Net's spatial attention scales the feature maps based on their importance.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**False**
+
+---
+
+### 17. CA-Net's scale attention identifies which of the feature maps of different scales are relevant, as well as which locations in those feature maps are relevant.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
+
+---
+
+### 18. Hard attention scales the entire input based on its attention weights.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**False**
+
+---
+
+### 19. Hard attention can only be implemented using reinforcement learning.
+
+0 / 1 point
+
+Incorrect Answer: <span style="color: orangered">
+**True**
+
+Correct Answer: <span style="color: lime">
+**False**
+
+> **Feedback based on answering incorrectly:**
+> There is, for example, the deep recurrent writer by Gregor et al. (2015), which implements fully differentiable hard attention.
+
+---
+
+### 20. The Neural Turing Machine implements its memory with the help of LSTM memory cells.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**False**
+
+---
+
+### 21. The addressing mechanism of the neural turing machine allows key-based access, as well as iterating over a list of consecutive memory locations.
+
+1 / 1 point
+
+Correct Answer: <span style="color: lime">
+**True**
