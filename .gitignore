@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ================ CUSTOM IGNORE ================
+
+*.zip
+Neurosymbolic Reasoning/dataset/*
+Neurosymbolic Reasoning/logictensornetworks/*

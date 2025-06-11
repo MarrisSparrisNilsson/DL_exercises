@@ -68,6 +68,19 @@ Options:
 
 -   (253, 253, 1) <span style="color: lime"> **Correct answer**
 
+> **Note:**
+> "one filter" (kernel size) is assumed to be a $(3 \times 3)$ kernel size if nothing else has been stated.
+
+#### Formula is:
+
+Input Shape: $(255, 255, 1)$
+
+### $Output\_Height = \left\lfloor \frac{255 - 3}{1} \right\rfloor + 1$
+
+### $Output\_Width = \left\lfloor \frac{255 - 3}{1} \right\rfloor + 1$
+
+$= (253, 253, 1)$
+
 ---
 
 ### 5. When applying one filter to an image with shape (255, 255, 1), what is the output shape if no padding is used and the stride is set to 3?
